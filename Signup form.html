@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <style>
+  body {
+      background-image: url('https://media.discordapp.net/attachments/849451692134367242/912835422936268831/IMG_6179.png?width=789&height=573');
+
+      color: #474010;
+      font-size: 22px;
+  }
+  </style>
+  <body>
+    <Center>
+    <h1>Welcome to the Access Key</h1>
+    <h2>Please Signup Below</h2>
+    </center>
+    <form>
+      <center>
+      <label for="name">First name:</label>
+      <input type="text" name="name" id="name" pattern="[A-Z][a-z]{1,}" required>
+      <br>
+
+      <label for="name">Last name:</label>
+      <input type="text" name="name" id="name" pattern="[A-Z][a-z]{1,}" required>
+      <br>
+      <br>
+
+      <label for="today">Enter your birthday:</label>
+      <input type="date" id="today" name="today" required>
+      <br>
+      <br>
+
+      <label for ="phonenumber">Enter phone number:</label>
+      <input type="tel" id="phonenumber" name="phonenumber" pattern="\(?[0-9]{3}\)?[\s,-]?[0-9]{3}[\s,-]?[0-9]{4}">
+      <br>
+      <br>
+
+      <label for ="email">Enter email:</label>
+      <input type="email" name="email" id="email" pattern="\w{1,}@\w{1,}\.\w{1,}" required>
+      <br>
+      <br>
+
+      <label for="pwd">Enter password:</label>
+      <input type="password" name="pwd" id="pwd" minlength="8" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+      <br>
+      <br>
+
+      <button>Enter to Signup!</button>
+      </center>
+    </form>
+  </body>
+</html>
